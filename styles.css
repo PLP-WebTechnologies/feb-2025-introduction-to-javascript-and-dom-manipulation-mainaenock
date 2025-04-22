@@ -1,0 +1,81 @@
+header{
+    background-color: brown;
+    height: 50px;
+    margin-bottom: 10px;
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+
+}
+button{
+    padding: 5px;
+}
+.add-btn{
+    padding: 10px;
+    background-color: rgb(194, 133, 2);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    color: aliceblue;
+}
+.items{
+    margin-top: 20px;
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 10px;
+    display: flex;
+    overflow: scroll;
+    flex-direction: column;
+    scroll-behavior: smooth;
+    justify-content: space-between;
+    flex: 1;
+    background-color: transparent;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+
+}
+::-webkit-scrollbar {  
+    width: 0px;
+    background: transparent;   
+  }  
+.items-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+
+}
+.delete-btn{
+    background-color: rgb(255, 74, 74);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 60px;
+}
+.bought-btn{
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+}
+button:hover{
+    cursor: pointer;
+}
+.list-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
